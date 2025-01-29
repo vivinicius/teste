@@ -1,0 +1,48 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#" ,
+  "type" : "object" ,
+  "properties" : {
+    "id" : {
+      "type" : "integer"
+    },
+    "título" : {
+      "tipo" : "string"
+    },
+    "preço" : {
+      "tipo" : "inteiro"
+    },
+    "descontoPorcentagem" : {
+      "tipo" : "número"
+    },
+    "estoque" : {
+      "tipo" : "inteiro"
+    },
+    "classificação" : {
+      "tipo" : "número"
+    },
+    "miniatura" : {
+      "tipo" : "string"
+    },
+    "descrição" : {
+      "tipo" : "string"
+    },
+    "marca" : {
+      "tipo" : "string"
+    },
+    "categoria" : {
+      "tipo" : "string"
+    }
+  },
+  "obrigatório" : [
+    "id" ,
+    "título" ,
+    "preço" ,
+    "descontoPorcentagem" ,
+    "estoque" ,
+    "classificação" ,
+    "miniatura" ,
+    "descrição" ,
+    "marca" ,
+    "categoria"
+  ]
+}

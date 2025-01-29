@@ -1,12 +1,12 @@
-package com.diegoaquino.rest.models;
+package com.desafio.pojo;
 
 public class Produto {
     private String title;
     private String description;
-    private Float price;
-    private Float discountPercentage;
-    private Float rating;
-    private Integer stock;
+    private String price;
+    private String discountPercentage;
+    private String rating;
+    private String stock;
     private String brand;
     private String category;
     private String thumbnail;
@@ -15,80 +15,73 @@ public class Produto {
         return title;
     }
 
-    public Produto setTitle(String title) {
+    public void setTitle(String title) {
         this.title = title;
-        return this;
     }
 
     public String getDescription() {
         return description;
     }
 
-    public Produto setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
-        return this;
     }
 
-    public Float getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public Produto setPrice(Float price) {
+    public void setPrice(String price) {
         this.price = price;
-        return this;
     }
 
-    public Float getDiscountPercentage() {
+    public String getDiscountPercentage() {
         return discountPercentage;
     }
 
-    public Produto setDiscountPercentage(Float discountPercentage) {
+    public void setDiscountPercentage(String discountPercentage) {
         this.discountPercentage = discountPercentage;
-        return this;
     }
 
-    public Float getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public Produto setRating(Float rating) {
+    public void setRating(String rating) {
         this.rating = rating;
-        return this;
     }
 
-    public Integer getStock() {
+    public String getStock() {
         return stock;
     }
 
-    public Produto setStock(Integer stock) {
+    public void setStock(String stock) {
         this.stock = stock;
-        return this;
     }
 
     public String getBrand() {
         return brand;
     }
 
-    public Produto setBrand(String brand) {
+    public void setBrand(String brand) {
         this.brand = brand;
-        return this;
     }
 
     public String getCategory() {
         return category;
     }
 
-    public Produto setCategory(String category) {
+    public void setCategory(String category) {
         this.category = category;
-        return this;
     }
 
     public String getThumbnail() {
         return thumbnail;
     }
 
-    public Produto setThumbnail(String thumbnail) {
+    public void setThumbnail(String thumbnail) {
         this.thumbnail = thumbnail;
-        return this;
     }
+
+
 }
